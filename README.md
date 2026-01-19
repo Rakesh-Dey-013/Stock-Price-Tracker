@@ -57,11 +57,10 @@ A comprehensive real-time dashboard for tracking both stock market performance a
     ```bash
     npm run dev
     ```
+4. **Open your browser and navigate to:**
 
-4. **Build for production:**
-
-    ```bash
-    npm run build
+    ```
+    http://localhost:5173
     ```
 
 ## 📂 Project Structure
