@@ -7,7 +7,7 @@ const StockCard = ({ stock }) => {
   const isPositive = stock.change >= 0;
   
   const handleClick = () => {
-    navigate(`/stock/${stock.id}`);
+    navigate(`/Stock-Price-Tracker/stock/${stock.id}`);
   };
 
   return (

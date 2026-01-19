@@ -71,7 +71,7 @@ const About = () => {
                   RD
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Rakesh Dey</h3>
-                <p className="text-gray-400 mb-4">Frontend Developer</p>
+                <p className="text-gray-400 mb-4">MERN Stack Developer</p>
                 <p className="text-gray-300 mb-4">
                   Passionate about building modern web applications with React and Node.js.
                 </p>

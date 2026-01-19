@@ -49,7 +49,7 @@ const CryptoTable = ({ coins, loading }) => {
   };
 
   const handleRowClick = (coinId) => {
-    navigate(`/crypto/${coinId}`);
+    navigate(`/Stock-Price-Tracker/crypto/${coinId}`);
   };
 
   if (loading) {

@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link to="/" className="flex-shrink-0 flex items-center">
+            <Link to="/Stock-Price-Tracker/" className="flex-shrink-0 flex items-center">
               <img src={logo} alt="CryptoStocks" className="h-8 mr-2" />
               <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">
                 CryptoStocks
@@ -24,21 +24,21 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
-                to="/"
-                className={`px-3 py-2 rounded-md text-sl ${isActive('/')}`}
+                to="/Stock-Price-Tracker/"
+                className={`px-3 py-2 rounded-md text-sl ${isActive('/Stock-Price-Tracker/')}`}
               >
                 Home
               </Link>
               <Link
-                to="/markets"
-                className={`px-3 py-2 rounded-md text-sl ${isActive('/markets')}`}
+                to="/Stock-Price-Tracker/markets"
+                className={`px-3 py-2 rounded-md text-sl ${isActive('/Stock-Price-Tracker/markets')}`}
               >
                 Markets
               </Link>
 
               <Link
-                to="/about"
-                className={`px-3 py-2 rounded-md text-sl ${isActive('/about')}`}
+                to="/Stock-Price-Tracker/about"
+                className={`px-3 py-2 rounded-md text-sl ${isActive('/Stock-Price-Tracker/about')}`}
               >
                 About
               </Link>

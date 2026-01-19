@@ -15,11 +15,11 @@ function App() {
         <Navbar />
         <main className="flex-grow">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/markets" element={<Markets />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/stock/:id" element={<StockDetails />} />
-            <Route path="/crypto/:id" element={<CryptoDetails />} />
+            <Route path="/Stock-Price-Tracker/" element={<Home />} />
+            <Route path="/Stock-Price-Tracker/markets" element={<Markets />} />
+            <Route path="/Stock-Price-Tracker/about" element={<About />} />
+            <Route path="/Stock-Price-Tracker/stock/:id" element={<StockDetails />} />
+            <Route path="/Stock-Price-Tracker/crypto/:id" element={<CryptoDetails />} />
           </Routes>
         </main>
         <Footer />

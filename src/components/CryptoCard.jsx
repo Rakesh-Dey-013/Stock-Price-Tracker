@@ -7,7 +7,7 @@ const CryptoCard = ({ coin }) => {
   const isPositive = coin.price_change_percentage_24h >= 0;
   
   const handleClick = () => {
-    navigate(`/crypto/${coin.id}`);
+    navigate(`/Stock-Price-Tracker/crypto/${coin.id}`);
   };
 
   return (
