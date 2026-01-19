@@ -1,12 +1,96 @@
-# React + Vite
+# 📈 Stock Price Tracker: Crypto + Stocks
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A comprehensive real-time dashboard for tracking both stock market performance and cryptocurrency prices. This application combines custom stock data with live crypto updates from the CoinGecko API to provide a unified financial overview.
 
-Currently, two official plugins are available:
+### Live Demo : [https://rakesh-dey-013.github.io/Stock-Price-Tracker/](https://rakesh-dey-013.github.io/Stock-Price-Tracker/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Gallery
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/home.png" alt="Home Page" width="350"/>
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/stocksTable.png" alt="All Stocks Table Page" width="350"/>
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/chart.png" alt="Stocks Details Page" width="350"/>
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/about.png" alt="About Page" width="350"/>
+</p>
+
+---
+
+---
+
+## 🚀 Features
+
+- **Live Crypto Tracking**: Fetches real-time price, market cap, and 24h change for top cryptocurrencies using the **CoinGecko API**.
+- **Custom Stock Data**: Integrated `stocks.js` module providing detailed metrics for major companies like Apple, Microsoft, and NVIDIA, including market cap, volume, and daily highs/lows.
+- **Dynamic Charts**: Interactive price history visualizations using generated data points for different time ranges (1D, 1W, 1M, etc.).
+- **Responsive UI**: A modern, dark-themed dashboard built with **Tailwind CSS** and **Radix UI** primitives for accessibility and smooth interactions.
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React](https://reactjs.org/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Radix UI](https://www.radix-ui.com/)
+- **API**: [CoinGecko API](https://www.coingecko.com/en/api)
+
+## 📦 Installation & Setup
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone [https://github.com/rakesh-dey-013/Stock-Price-Tracker.git](https://github.com/rakesh-dey-013/Stock-Price-Tracker.git)
+
+    cd Stock-Price-Tracker
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+4. **Build for production:**
+
+    ```bash
+    npm run build
+    ```
+
+## 📂 Project Structure
+
+```bash
+Stock-Price-Tracker/
+├── src/
+│   ├── assets/             # Images and static assets
+│   ├── components/
+│   │   ├── ui/             # Reusable Radix UI components (Button, Card, Input)
+│   │   ├── CryptoCard.jsx
+│   │   ├── CryptoTable.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.jsx
+│   │   └── StockCard.jsx
+│   ├── data/
+│   │   └── stocks.js       # Stock data and history generation logic
+│   ├── hooks/
+│   │   └── useCoinGecko.js  # Custom hook for API integration
+│   ├── pages/
+│   │   ├── About.jsx
+│   │   ├── CryptoDetails.jsx
+│   │   ├── Home.jsx
+│   │   ├── Markets.jsx
+│   │   └── StockDetails.jsx
+│   ├── App.jsx             # Main application component
+│   ├── index.css           # Global Tailwind styles
+│   └── main.jsx            # Entry point
+├── index.html
+├── tailwind.config.js
+└── vite.config.js
+```
