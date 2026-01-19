@@ -11,10 +11,10 @@ A comprehensive real-time dashboard for tracking both stock market performance a
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/home.png" alt="Home Page" width="350"/>
-  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/stocksTable.png" alt="All Stocks Table Page" width="350"/>
-  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/chart.png" alt="Stocks Details Page" width="350"/>
-  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/frontend/src/assets/about.png" alt="About Page" width="350"/>
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main//src/assets/home.png" alt="Home Page" width="350"/>
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main//src/assets/stocksTable.png" alt="All Stocks Table Page" width="350"/>
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main//src/assets/chart.png" alt="Stocks Details Page" width="350"/>
+  <img src="https://github.com/Rakesh-Dey-013/Stock-Price-Tracker/blob/main/src/assets/about.png" alt="About Page" width="350"/>
 </p>
 
 ---
@@ -41,7 +41,7 @@ A comprehensive real-time dashboard for tracking both stock market performance a
 1. **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/rakesh-dey-013/Stock-Price-Tracker.git](https://github.com/rakesh-dey-013/Stock-Price-Tracker.git)
+    git clone https://github.com/rakesh-dey-013/Stock-Price-Tracker.git
 
     cd Stock-Price-Tracker
     ```
